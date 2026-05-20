@@ -28,17 +28,16 @@ ln -sf text ibeam
 ln -sf vertical-text vertical_text
 
 # crosshair
-ln -sf crosshair cross
+ln -sf cell cross
 ln -sf crosshair tcross
 ln -sf crosshair diamond_cross
-ln -sf crosshair plus
+ln -sf cell plus
 
 # not-allowed
 ln -sf not-allowed forbidden
 ln -sf not-allowed crossed_circle
 ln -sf not-allowed circle
 ln -sf not-allowed no-drop
-ln -sf not-allowed dnd-none
 ln -sf not-allowed 03b6e0fcb3499374a867c041f52298f0
 
 # wait
@@ -96,15 +95,11 @@ ln -sf row-resize 00008160000006810000408080010102
 # size_ver
 ln -sf size_ver n-resize
 ln -sf size_ver s-resize
-ln -sf size_ver top_side
-ln -sf size_ver bottom_side
 ln -sf size_ver size-ver
 
 # size_hor
 ln -sf size_hor e-resize
 ln -sf size_hor w-resize
-ln -sf size_hor left_side
-ln -sf size_hor right_side
 ln -sf size_hor size-hor
 
 # size_fdiag (nwse)
@@ -153,6 +148,7 @@ ln -sf zoom-out f41c0e382c94c0958e07017e42b00460
 # pencil
 ln -sf pencil draft
 
+# dir arrows
 ln -sf top_size up-arrow
 ln -sf bottom_size down-arrow
 ln -sf left_size left-arrow
