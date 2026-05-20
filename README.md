@@ -1,39 +1,42 @@
 # pxsor
 
-Un tema de cursores pixelado para Linux.
+A pixelated cursor theme for Linux.
 
 <img src="cursors-example.webp" width=500>
 
-## Instalación
+## Installation
 
-Descarga el archivo `.tar.gz` desde [Releases](../../releases/latest) y extráelo:
+Download the `.tar.gz` file from [Releases](../../releases/latest) and extract it:
 
 ```bash
 tar -xzf pxsor.tar.gz -C ~/.local/share/icons/
 ```
 
-### Activar
+## Activation
 
-**Hyprland** — agrega a `hyprland.conf`:
+### Hyprland — add to hyprland.conf:
+
 ```ini
 env = XCURSOR_THEME,pxsor
-env = XCURSOR_SIZE,32     # recomendado
+env = XCURSOR_SIZE,32     # recommended
 ```
 
-**GNOME:**
+### GNOME:
+
 ```bash
 gsettings set org.gnome.desktop.interface cursor-theme 'pxsor'
 ```
 
-**KDE:** Configuración del sistema → Apariencia → Cursores
+### KDE: System Settings → Appearance → Cursors
 
-**Otros** — agrega a `~/.config/gtk-3.0/settings.ini`:
+### Others — add to ~/.config/gtk-3.0/settings.ini:
+
 ```ini
 [Settings]
 gtk-cursor-theme-name=pxsor
-gtk-cursor-theme-size=32    # recomendado
+gtk-cursor-theme-size=32    # recommended
 ```
 
-## Licencia
+## License
 
-[MIT](LICENSE) © melisapo
+MIT © melisapo
