@@ -2,11 +2,11 @@
 
 #mkdir cursors
 
-for f in cursors-src/*.cursor; do
-    xcursorgen "$f" cursors/"${f%.cursor}"
+for f in ./*.cursor; do
+    xcursorgen "$f" ../cursors/"${f%.cursor}"
 done
 
-cd cursors
+cd ../cursors
 
 # default
 ln -sf default left_ptr
