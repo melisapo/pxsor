@@ -1,0 +1,4 @@
+name = pxsor
+description = A pixel art cursor theme
+version = 1.0
+cursors_directory = hyprcursors

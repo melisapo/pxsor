@@ -1,0 +1,4 @@
+resize_algorithm = nearest
+hotspot_x = 0.1875
+hotspot_y = 0.1875
+define_size = 0, zoom-out.svg

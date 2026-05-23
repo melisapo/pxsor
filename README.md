@@ -21,6 +21,13 @@ env = XCURSOR_THEME,pxsor
 env = XCURSOR_SIZE,32     # recommended
 ```
 
+or if you prefer hyprcursors
+
+```ini
+env = HYPRCURSOR_THEME,pxsor
+env = HYPRCURSOR_SIZE,32     # recommended
+```
+
 ### GNOME:
 
 ```bash

@@ -1,0 +1,5 @@
+resize_algorithm = nearest
+hotspot_x = 0.4375
+hotspot_y = 0.3125
+define_size = 0, col-resize.svg
+define_override = split_h
