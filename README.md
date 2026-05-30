@@ -6,6 +6,12 @@ A pixelated cursor theme for Linux.
 
 ## Installation
 
+```bash
+curl -sL https://github.com/melisapo/pxsor/releases/latest/download/pxsor.tar.gz | tar -xz -C ~/.local/share/icons/
+```
+
+### or
+
 Download the `.tar.gz` file from [Releases](../../releases/latest) and extract it:
 
 ```bash
