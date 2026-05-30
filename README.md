@@ -27,7 +27,7 @@ env = XCURSOR_THEME,pxsor
 env = XCURSOR_SIZE,32     # recommended
 ```
 
-or if you prefer hyprcursors
+#### or if you prefer hyprcursors
 
 ```ini
 env = HYPRCURSOR_THEME,pxsor
