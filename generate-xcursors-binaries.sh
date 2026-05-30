@@ -1,12 +1,12 @@
 #!/bin/bash
 
-#mkdir cursors
+mkdir -p cursors
 
-for f in ./*.cursor; do
-    xcursorgen "$f" ../cursors/"${f%.cursor}"
+for f in "$1"/*.cursor; do
+    xcursorgen "$f" cursors/"$(basename "${f%.cursor}")"
 done
 
-cd ../cursors
+cd cursors
 
 # default
 ln -sf default left_ptr
