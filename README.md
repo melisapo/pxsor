@@ -9,7 +9,7 @@ A pixelated cursor theme for Linux.
 Download the `.tar.gz` file from [Releases](../../releases/latest) and extract it:
 
 ```bash
-tar -xzf pxsor.tar.gz -C ~/.local/share/icons/
+tar -xzf pxsor.tar.gz -C ~/.icons/
 ```
 
 ## Activation
