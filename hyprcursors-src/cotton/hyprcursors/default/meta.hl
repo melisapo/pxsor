@@ -1,0 +1,12 @@
+resize_algorithm = nearest
+hotspot_x = 0.0625
+hotspot_y = 0.0625
+define_size = 0, default.svg
+define_override = arrow
+define_override = center_ptr
+define_override = left_ptr
+define_override = size-bdiag
+define_override = size-fdiag
+define_override = size-hor
+define_override = size-ver
+define_override = top_left_arrow

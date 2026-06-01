@@ -1,12 +1,15 @@
 #!/bin/bash
 
-mkdir -p cursors
+mkdir -p "$2"
+OUT=$(realpath "$2")
 
-for f in "$1"/*.cursor; do
-    xcursorgen "$f" cursors/"$(basename "${f%.cursor}")"
+cd "$1"
+
+for f in ./*.cursor; do
+    xcursorgen "$f" "$OUT/$(basename "${f%.cursor}")"
 done
 
-cd cursors
+cd "$OUT"
 
 # default
 ln -sf default left_ptr

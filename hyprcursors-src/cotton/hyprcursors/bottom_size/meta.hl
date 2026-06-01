@@ -1,0 +1,6 @@
+resize_algorithm = nearest
+hotspot_x = 0.375
+hotspot_y = 0.5
+define_size = 0, bottom_size.svg
+define_override = bottom_side
+define_override = down-arrow

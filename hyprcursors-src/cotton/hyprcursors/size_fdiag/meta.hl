@@ -1,0 +1,7 @@
+resize_algorithm = nearest
+hotspot_x = 0.375
+hotspot_y = 0.375
+define_size = 0, size_fdiag.svg
+define_override = nw-resize
+define_override = nwse-resize
+define_override = se-resize
