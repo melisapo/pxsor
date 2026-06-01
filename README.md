@@ -7,12 +7,12 @@ A pixelated cursor theme for Linux.
 ## Installation
 
 ```bash
-curl -sL https://github.com/melisapo/pxsor/releases/latest/download/pxsor.tar.gz | tar -xz -C ~/.local/share/icons/
+curl -sL https://github.com/melisapo/pxsor/releases/latest/download/pxsor.tar.gz | tar -xz -C ~/.icons/
 ```
 
 ### or
 
-Download the `.tar.gz` file from [Releases](../../releases/latest) and extract it:
+Download your favorite theme `.tar.gz` file from [Releases](../../releases/latest) and extract it:
 
 ```bash
 tar -xzf pxsor.tar.gz -C ~/.icons/
@@ -49,6 +49,20 @@ gsettings set org.gnome.desktop.interface cursor-theme 'pxsor'
 gtk-cursor-theme-name=pxsor
 gtk-cursor-theme-size=32    # recommended
 ```
+
+## Themes
+
+### Classic: 
+
+<img src="cursors-example-classic.webp" widht=256 >
+
+> Colors inspired by [resurrect 64](https://lospec.com/palette-list/resurrect-64) palette
+
+### Cotton
+
+<img src="cursors-example-cotton.webp" widht=256 >
+
+> Colors are a [dream-based videogame](https://lospec.com/palette-list/dream-based-videogame) palette modification
 
 ## License
 
