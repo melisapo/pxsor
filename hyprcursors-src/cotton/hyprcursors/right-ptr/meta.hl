@@ -1,4 +1,0 @@
-resize_algorithm = nearest
-hotspot_x = 0.3125
-hotspot_y = 0.0625
-define_size = 0, right_ptr.svg

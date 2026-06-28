@@ -1,6 +1,0 @@
-resize_algorithm = nearest
-hotspot_x = 0.375
-hotspot_y = 0.375
-define_size = 0, all-scroll.svg
-define_override = fleur
-define_override = size_all

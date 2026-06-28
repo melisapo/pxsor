@@ -1,7 +1,0 @@
-resize_algorithm = nearest
-hotspot_x = 0.375
-hotspot_y = 0.375
-define_size = 0, size_bdiag.svg
-define_override = ne-resize
-define_override = nesw-resize
-define_override = sw-resize

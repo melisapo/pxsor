@@ -1,21 +1,28 @@
-# pxsor
+<h1 align=center> pxsor </h1>
 
-A pixelated cursor theme for Linux.
+<p align=center>A pixelated cursor theme for Linux.</p>
 
-<img src="cursors-example.webp" width=500>
+<img align=center alt="pxsors" src="./assets/cursors-example.webp" width=128>
+<br>
+<p align="center">
+    <a href="https://github.com/melisapo/pxsor/stargazers"><img alt="Stargazers" src="https://img.shields.io/github/stars/melisapo/pxsor?colorA=694f62&colorB=fff8a0&style=for-the-badge"> </a> 
+    <a href="https://github.com/melisapo/pxsor?tab=MIT-1-ov-file"><img alt="License" src="https://img.shields.io/github/license/melisapo/pxsor?colorA=694f62&colorB=accbe4&style=for-the-badge"> </a> 
+    <a href="https://github.com/melisapo/pxsor/releases" ><img alt="Release" src="https://img.shields.io/github/v/release/melisapo/pxsor?colorA=694f62&colorB=aeeb93&style=for-the-badge"> </a> 
+    <img alt="Downloads" src="https://img.shields.io/github/downloads/melisapo/pxsor/total?colorA=694f62&colorB=f3b0e3&style=for-the-badge">
+</p>
 
 ## Installation
 
 ```bash
-curl -sL https://github.com/melisapo/pxsor/releases/latest/download/pxsor.tar.gz | tar -xz -C ~/.icons/
+curl -sL https://github.com/melisapo/pxsor/releases/latest/download/pxsor.tar.gz | tar -xz -C ~/.local/share/icons/
 ```
 
 ### or
 
-Download your favorite theme `.tar.gz` file from [Releases](../../releases/latest) and extract it:
+Download the `.tar.gz` file from [Releases](../../releases/latest) and extract it:
 
 ```bash
-tar -xzf pxsor.tar.gz -C ~/.icons/
+tar -xzf pxsor.tar.gz -C ~/.local/share/icons/
 ```
 
 ## Activation
@@ -50,19 +57,11 @@ gtk-cursor-theme-name=pxsor
 gtk-cursor-theme-size=32    # recommended
 ```
 
-## Themes
+## Preview
 
-### Classic: 
-
-<img src="cursors-example-classic.webp" widht=256 >
+<img src="assets/cursors-example-classic.webp" widht=128 >
 
 > Colors inspired by [resurrect 64](https://lospec.com/palette-list/resurrect-64) palette
-
-### Cotton
-
-<img src="cursors-example-cotton.webp" widht=256 >
-
-> Colors are a [dream-based videogame](https://lospec.com/palette-list/dream-based-videogame) palette modification
 
 ## License
 

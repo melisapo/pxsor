@@ -1,6 +1,0 @@
-resize_algorithm = nearest
-hotspot_x = 0.5
-hotspot_y = 0.3125
-define_size = 0, right_size.svg
-define_override = right_side
-define_override = right-arrow

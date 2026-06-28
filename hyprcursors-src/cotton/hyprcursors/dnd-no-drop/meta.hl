@@ -1,4 +1,0 @@
-resize_algorithm = nearest
-hotspot_x = 0.125
-hotspot_y = 0.125
-define_size = 0, dnd-no-drop.svg
