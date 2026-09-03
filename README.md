@@ -8,14 +8,14 @@
 <br>
 <p align=center>A pixelated cursor theme for Linux.</p>
 
-> Windows version [here](https://melisapo/pxsor-win)
-
 <p align="center">
     <a href="https://github.com/melisapo/pxsor/stargazers"><img alt="Stargazers" src="https://img.shields.io/github/stars/melisapo/pxsor?colorA=694f62&colorB=fff8a0&style=for-the-badge"></a> 
     <a href="https://github.com/melisapo/pxsor?tab=MIT-1-ov-file"><img alt="License" src="https://img.shields.io/github/license/melisapo/pxsor?colorA=694f62&colorB=accbe4&style=for-the-badge"></a> 
     <a href="https://github.com/melisapo/pxsor/releases/latest" ><img alt="Release" src="https://img.shields.io/github/v/release/melisapo/pxsor?colorA=694f62&colorB=aeeb93&style=for-the-badge"></a> 
     <img alt="Downloads" src="https://img.shields.io/github/downloads/melisapo/pxsor/total?colorA=694f62&colorB=f3b0e3&style=for-the-badge">
 </p>
+
+> Windows version [here](https://melisapo/pxsor-win)
 
 ## Installation
 
