@@ -15,7 +15,7 @@
     <img alt="Downloads" src="https://img.shields.io/github/downloads/melisapo/pxsor/total?colorA=694f62&colorB=f3b0e3&style=for-the-badge">
 </p>
 
-> Windows version [here](https://melisapo/pxsor-win)
+> Windows version [here](https://github.com/melisapo/pxsor-win)
 
 ## Installation
 
